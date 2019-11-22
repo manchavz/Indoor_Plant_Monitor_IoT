@@ -4,6 +4,9 @@ The goal of the project was to design, develop, and implement an indoor plant mo
 
 The system uses an array of sensors to gather data of the plant such as temperature, soil moisture level, and sunlight which is aggregated by the ESP32 microcontroller. The ESP32 counts with a wifi module used to push the telemetry into the Google Cloud Platform via the MQTT protocol. In the cloud, the information is stored and processed compared against ceratain threshold values that indicate if the plant is doing well or not. Lastly, a report about the plant's status is delivered through mail to the user of the service.
 
+# Video
+[![Video](https://i.ibb.co/M7dFbQw/video-preview.png)](https://drive.google.com/file/d/1k6RktlvB6GGy4GBJqHew5WgdUiIqBpmk/view "Video")
+
 ## Google Cloud Platform System Configuration
 * Register a device to Google IoT Core service
     * Create a Registry
